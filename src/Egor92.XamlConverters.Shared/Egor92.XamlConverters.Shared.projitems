@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>320eec02-69c6-4251-a42b-481f12070118</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Egor92.XamlConverters.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BoolConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BoolConverterBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BoolToVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cases\ContainsValueCase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cases\EqualsCase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cases\ICase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cases\IsAssignableFromOpenGenericTypeCase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cases\RangeCase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cases\TypeCase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ChainConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConverterDecorator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumToDescriptionConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EqualsValueConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GetXamlResourceConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InvertBoolConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IsNullConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectToStringConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringToBrushConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringToPathConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SwitchConverter.cs" />
+  </ItemGroup>
+</Project>
